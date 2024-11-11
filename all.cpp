@@ -18,3 +18,9 @@ int main() {
   std::cout << "Hello World!";
   return 0;
 }
+
+int main() {
+  cout << "Hello World! \n";
+  cout << "I am learning C++";
+  return 0;
+}
