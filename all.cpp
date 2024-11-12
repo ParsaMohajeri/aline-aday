@@ -22,5 +22,6 @@ int main() {
 int main() {
   cout << "Hello World! \n";
   cout << "I am learning C++";
+  cout << "Hello World!" << "\n";
   return 0;
 }
