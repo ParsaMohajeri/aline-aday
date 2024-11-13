@@ -19,6 +19,7 @@ int main() {
   return 0;
 }
 
+// This is a comment
 int main() {
   cout << "Hello World! \n";
   cout << "I am learning C++";
