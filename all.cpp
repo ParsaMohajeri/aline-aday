@@ -40,3 +40,7 @@ double myFloatNum = 5.99;    // Floating point number (with decimals)
 char myLetter = 'D';         // Character
 string myText = "Hello";     // String (text)
 bool myBoolean = true;       // Boolean (true or false)
+
+
+int x = 5, y = 6, z = 50;
+cout << x + y + z;
