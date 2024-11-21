@@ -44,3 +44,6 @@ bool myBoolean = true;       // Boolean (true or false)
 
 int x = 5, y = 6, z = 50;
 cout << x + y + z;
+
+const int myNum = 15;  // myNum will always be 15
+myNum = 10;  // error: assignment of read-only variable 'myNum'
