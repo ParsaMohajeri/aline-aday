@@ -50,3 +50,15 @@ myNum = 10;  // error: assignment of read-only variable 'myNum'
 
 const int minutesPerHour = 60;
 const float PI = 3.14;
+
+// Student data
+int studentID = 15;
+int studentAge = 23;
+float studentFee = 75.25;
+char studentGrade = 'B';
+
+// Print variables
+cout << "Student ID: " << studentID << "\n";
+cout << "Student Age: " << studentAge << "\n";
+cout << "Student Fee: " << studentFee << "\n";
+cout << "Student Grade: " << studentGrade << "\n";
