@@ -97,3 +97,8 @@ double myDoubleNum = 9.98;   // Floating point number
 char myLetter = 'D';         // Character
 bool myBoolean = true;       // Boolean
 string myText = "Hello";     // String
+
+float f1 = 35e3;
+double d1 = 12E4;
+cout << f1;
+cout << d1;
