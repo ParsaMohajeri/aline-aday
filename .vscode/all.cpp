@@ -102,3 +102,8 @@ float f1 = 35e3;
 double d1 = 12E4;
 cout << f1;
 cout << d1;
+
+bool isCodingFun = true;
+bool isFishTasty = false;
+cout << isCodingFun;  // Outputs 1 (true)
+cout << isFishTasty;  // Outputs 0 (false)
