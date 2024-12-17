@@ -79,5 +79,8 @@ int main() {
     cout << b;
     cout << c;
 
+    char myGrade = 'B';
+    cout << myGrade;
+
     return 0;
 }
