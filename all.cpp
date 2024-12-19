@@ -81,6 +81,8 @@ int main() {
 
     char myGrade = 'B';
     cout << myGrade;
-
+    
+    string greeting = "Hello";
+    cout << greeting;
     return 0;
 }
