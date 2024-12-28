@@ -79,11 +79,10 @@ int main() {
     cout << b;
     cout << c;
 
-    char myGrade = 'B';
-    cout << myGrade;
+    // Redefining myGrade would cause an error; removed duplicate
 
     string greeting = "Hello";
-    cout << greeting;
+    cout << greeting << endl;
 
     int items = 50;
     double cost_per_item = 9.99;
@@ -92,19 +91,24 @@ int main() {
 
     // Print variables
     cout << "Number of items: " << items << "\n";
-    cout << "Cost per item: " << cost_per_item << "" << currency << "\n";
-    cout << "Total cost = " << total_cost << "" << currency << "\n";
+    cout << "Cost per item: " << cost_per_item << currency << "\n";
+    cout << "Total cost = " << total_cost << currency << "\n";
 
     int sum1 = 100 + 50;        // 150 (100 + 50)
     int sum2 = sum1 + 250;      // 400 (150 + 250)
     int sum3 = sum2 + sum2;     // 800 (400 + 400)
 
-    int x = 10;
+    // Using x in arithmetic
+    x = 10;
     x += 5;
+    cout << x << endl;
 
-    int x = 5;
-    int y = 3;
-    cout << (x > y); // returns 1 (true) because 5 is greater than 3
+    int a1 = 5;
+    int b1 = 3;
+    cout << (a1 > b1) << endl; // returns 1 (true) because 5 is greater than 3
+
+
+    
 
     return 0;
 }
