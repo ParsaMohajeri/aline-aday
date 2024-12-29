@@ -108,7 +108,11 @@ int main() {
     cout << (a1 > b1) << endl; // returns 1 (true) because 5 is greater than 3
 
 
-    
+    // Include the string library
+    #include <string>
+
+    // Create a string variable
+    string greeting = "Hello";
 
     return 0;
 }
