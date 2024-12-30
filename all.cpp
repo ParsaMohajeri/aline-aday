@@ -114,5 +114,11 @@ int main() {
     // Create a string variable
     string greeting = "Hello";
 
+
+    string firstName = "John";
+    string lastName = "Doe";
+    string fullName = firstName + " " + lastName;
+    cout << fullName;
+
     return 0;
 }
