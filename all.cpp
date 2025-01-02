@@ -129,5 +129,8 @@ int main() {
     int y = 20;
     int z = x + y;      // z will be 30 (an integer)
 
+    string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    cout << "The length of the txt string is: " << txt.length();
+
     return 0;
 }
