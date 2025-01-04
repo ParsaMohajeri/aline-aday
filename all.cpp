@@ -137,7 +137,11 @@ int main() {
     
     string myString = "Hello";
     cout << myString[0];
-    // Outputs H
+    // Outputs H    
+
+    string myString = "Hello";
+    cout << myString[1];
+    // Outputs e
     
     return 0;
 }
