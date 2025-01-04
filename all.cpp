@@ -135,6 +135,9 @@ int main() {
     string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     cout << "The length of the txt string is: " << txt.size();
     
+    string myString = "Hello";
+    cout << myString[0];
+    // Outputs H
     
     return 0;
 }
