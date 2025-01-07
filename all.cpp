@@ -145,5 +145,7 @@ int main() {
     
     string txt = "We are the so-called \"Vikings\" from the north.";
 
+    string txt = "It\'s alright.";
+
     return 0;
 }
