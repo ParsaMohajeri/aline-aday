@@ -154,5 +154,11 @@ int main() {
     // Type your first name: John
     // Your name is: John
 
+    string fullName;
+    cout << "Type your full name: ";
+    getline (cin, fullName);
+    cout << "Your name is: " << fullName;
+    // Type your full name: John Doe
+    // Your name is: John Doe
     return 0;
 }
