@@ -160,5 +160,13 @@ int main() {
     cout << "Your name is: " << fullName;
     // Type your full name: John Doe
     // Your name is: John Doe
+
+    std::string greeting = "Hello";
+    std::cout << greeting;
+    
+    
+
+
     return 0;
 }
+
