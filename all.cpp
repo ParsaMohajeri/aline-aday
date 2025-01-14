@@ -165,7 +165,8 @@ int main() {
     std::cout << greeting;
     
     
-
+    string greeting1 = "Hello";  // Regular String
+    char greeting2[] = "Hello";  // C-Style String (an array of characters)
 
     return 0;
 }
