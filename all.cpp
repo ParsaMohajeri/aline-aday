@@ -164,6 +164,7 @@ int main() {
     std::string greeting = "Hello";
     std::cout << greeting;
     
+    cout << max(5, 10);
     
     string greeting1 = "Hello";  // Regular String
     char greeting2[] = "Hello";  // C-Style String (an array of characters)
