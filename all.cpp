@@ -169,6 +169,9 @@ int main() {
     string greeting1 = "Hello";  // Regular String
     char greeting2[] = "Hello";  // C-Style String (an array of characters)
 
+    cout << min(5, 10);
+
+
     return 0;
 }
 
