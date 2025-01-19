@@ -180,6 +180,10 @@ int main() {
     cout << isCodingFun;  // Outputs 1 (true)
     cout << isFishTasty;  // Outputs 0 (false)
 
+    int x = 10;
+    int y = 9;
+    cout << (x > y); // returns 1 (true), because 10 is higher than 9
+
     return 0;
 }
 
