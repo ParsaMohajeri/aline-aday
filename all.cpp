@@ -175,6 +175,11 @@ int main() {
     cout << round(2.6);
     cout << log(2);
 
+    bool isCodingFun = true;
+    bool isFishTasty = false;
+    cout << isCodingFun;  // Outputs 1 (true)
+    cout << isFishTasty;  // Outputs 0 (false)
+
     return 0;
 }
 
