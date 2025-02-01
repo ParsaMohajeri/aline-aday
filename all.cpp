@@ -213,6 +213,13 @@ int main() {
     cout << "x is greater than y";
     }
 
+    int time = 20;
+    if (time < 18) {
+    cout << "Good day.";
+    } else {
+    cout << "Good evening.";
+    }
+    // Outputs "Good evening."
 
 
     return 0;
