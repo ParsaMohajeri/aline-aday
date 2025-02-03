@@ -242,6 +242,14 @@ int main() {
     string result = (time < 18) ? "Good day." : "Good evening.";
     cout << result;
 
+    int doorCode = 1337;
+    if (doorCode == 1337) {
+    cout << "Correct code.\nThe door is now open.\n";
+    } else {
+    cout << "Wrong code.\nThe door remains closed.\n";
+    }
+
+
     return 0;
 }
 
