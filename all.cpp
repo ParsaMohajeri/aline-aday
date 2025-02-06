@@ -266,6 +266,13 @@ int main() {
     cout << "Not old enough to vote.\n";
     }
 
+    int myNum = 5;
+    if (myNum % 2 == 0) {
+    cout << myNum << " is even.\n";
+    } else {
+    cout << myNum << " is odd.\n";
+    }
+
     return 0;
 }
 
