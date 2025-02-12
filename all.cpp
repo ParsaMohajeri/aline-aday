@@ -332,7 +332,11 @@ int main() {
     }
     cout << "Happy New Year!!\n";
 
-    
+    int i = 0;
+    while (i <= 10) {
+    cout << i << "\n";
+    i += 2;
+    }
 
     return 0;
 }
