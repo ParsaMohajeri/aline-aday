@@ -361,6 +361,10 @@ int main() {
     dice = dice + 1;
     }
 
+    for (int i = 0; i < 5; i++) {
+    cout << i << "\n";
+    }
+
     return 0;
 }
 
