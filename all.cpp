@@ -384,6 +384,10 @@ int main() {
     cout << i << "\n";
     }
 
+    for (int i = 0; i <= 100; i += 10) {
+    cout << i << "\n";
+    }
+
     return 0;
 }
 
