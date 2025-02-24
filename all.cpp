@@ -407,6 +407,13 @@ int main() {
     cout << number << " x " << i << " = " << number * i << "\n";
     }
 
+    for (int i = 0; i < 10; i++) {
+    if (i == 4) {
+        break;
+    }
+    cout << i << "\n";
+    }
+
     return 0;
 }
 
