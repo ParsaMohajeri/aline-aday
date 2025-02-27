@@ -440,6 +440,8 @@ int main() {
     i++;
     }
 
+    string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+
     
 
     return 0;
