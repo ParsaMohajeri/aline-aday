@@ -453,6 +453,14 @@ int main() {
     cout << cars[0];
     // Now outputs Opel instead of Volvo
 
+    // Create an array of strings
+    string cars[5] = {"Volvo", "BMW", "Ford", "Mazda", "Tesla"};
+
+    // Loop through strings
+    for (int i = 0; i < 5; i++) {
+    cout << cars[i] << "\n";
+    }
+
 
     return 0;
 }
