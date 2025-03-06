@@ -465,6 +465,8 @@ int main() {
     cout << i << " = " << cars[i] << "\n";
     }
 
+    string cars[] = {"Volvo", "BMW", "Ford"}; // Three array elements
+
 
     return 0;
 }
