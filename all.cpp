@@ -467,6 +467,8 @@ int main() {
 
     string cars[] = {"Volvo", "BMW", "Ford"}; // Three array elements
 
+    string cars[3] = {"Volvo", "BMW", "Ford"}; // Also three array elements
+
 
     return 0;
 }
