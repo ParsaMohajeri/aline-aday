@@ -476,7 +476,10 @@ int main() {
     cars[3] = "Mazda";
     cars[4] = "Tesla";
 
-
+    // A vector with 3 elements
+    vector<string> cars = {"Volvo", "BMW", "Ford"};
+    // Adding another element to the vector
+    cars.push_back("Tesla");
 
 
     return 0;
