@@ -529,7 +529,10 @@ int main() {
     // Print the lowest age
     cout << "The lowest age is: " << lowestAge << "\n";
 
-
+    string letters[2][4] = {
+    { "A", "B", "C", "D" },
+    { "E", "F", "G", "H" }
+    };
 
     return 0;
 }
