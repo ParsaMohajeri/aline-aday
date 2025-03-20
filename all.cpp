@@ -551,6 +551,13 @@ int main() {
     };
     cout << letters[0][2];  // Outputs "C"
 
+    string letters[2][4] = {
+    { "A", "B", "C", "D" },
+    { "E", "F", "G", "H" }
+    };
+    letters[0][0] = "Z";
+    cout << letters[0][0];  // Now outputs "Z" instead of "A"
+
     return 0;
 }
 
