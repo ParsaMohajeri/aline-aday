@@ -647,7 +647,12 @@ int main() {
     cout << myStructure.myString << "\n";
 
 
+    struct {
+    int myNum;
+    string myString;
+    } myStruct1, myStruct2, myStruct3; // Multiple structure variables separated with commas
 
+    
     return 0;
 }
 
