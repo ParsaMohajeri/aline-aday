@@ -670,6 +670,10 @@ int main() {
     cout << myCar1.brand << " " << myCar1.model << " " << myCar1.year << "\n";
     cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << "\n";
 
+    struct myDataType { // This structure is named "myDataType"
+    int myNum;
+    string myString;
+    };
 
 
     return 0;
