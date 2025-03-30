@@ -697,6 +697,8 @@ int main() {
         cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << "\n";
     }
 
+    enum Level myVar;
+
     return 0;
 }
 
