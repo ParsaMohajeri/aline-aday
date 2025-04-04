@@ -725,6 +725,17 @@ int main() {
         HIGH // Now 7
     };
 
+    int main() {
+        // Create an enum variable and assign a value to it
+        enum Level myVar = MEDIUM;
+        // Print the enum variable
+        cout << myVar;
+        return 0;
+    }
+
+
+    
+
 
 
     return 0;
