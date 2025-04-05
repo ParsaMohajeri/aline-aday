@@ -733,8 +733,8 @@ int main() {
         return 0;
     }
 
-
-    
+    string food = "Pizza";  // food variable
+    string &meal = food;    // reference to food
 
 
 
