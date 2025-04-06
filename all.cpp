@@ -741,7 +741,8 @@ int main() {
     cout << food << "\n";  // Outputs Pizza
     cout << meal << "\n";  // Outputs Pizza
 
-    
+    string food = "Pizza";
+    cout << &food; // Outputs 0x6dfed4
 
 
 
