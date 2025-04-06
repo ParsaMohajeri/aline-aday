@@ -736,6 +736,13 @@ int main() {
     string food = "Pizza";  // food variable
     string &meal = food;    // reference to food
 
+    string food = "Pizza";
+    string &meal = food;
+    cout << food << "\n";  // Outputs Pizza
+    cout << meal << "\n";  // Outputs Pizza
+
+    
+
 
 
     return 0;
