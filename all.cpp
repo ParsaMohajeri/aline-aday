@@ -748,6 +748,14 @@ int main() {
     cout << food;  // Outputs the value of food (Pizza)
     cout << &food; // Outputs the memory address of food (0x6dfed4)
 
+    string food = "Pizza";  // Variable declaration
+    string* ptr = &food;    // Pointer declaration
+    // Reference: Output the memory address of food with the pointer (0x6dfed4)
+    cout << ptr << "\n";
+    // Dereference: Output the value of food with the pointer (Pizza)
+    cout << *ptr << "\n";
+
+
 
 
     return 0;
