@@ -771,6 +771,16 @@ int main() {
     cout << food << "\n";
 
 
+// Create a function
+    void myFunction() {
+        cout << "I just got executed!";
+    }
+
+    int main() {
+        myFunction(); // call the function
+        return 0;
+    }
+
 
     return 0;
 }
