@@ -775,9 +775,18 @@ int main() {
     void myFunction() {
         cout << "I just got executed!";
     }
-
     int main() {
         myFunction(); // call the function
+        return 0;
+    }
+
+    void myFunction() {
+        cout << "I just got executed!\n";
+    }
+    int main() {
+        myFunction();
+        myFunction();
+        myFunction();
         return 0;
     }
 
