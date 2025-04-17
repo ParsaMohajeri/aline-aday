@@ -812,6 +812,18 @@ int main() {
     }
 
 
+        void myFunction(string country = "Norway") {
+            cout << country << "\n";
+        }
+
+        int main() {
+            myFunction("Sweden");
+            myFunction("India");
+            myFunction();
+            myFunction("USA");
+            return 0;
+        }
+
 
     return 0;
 }
