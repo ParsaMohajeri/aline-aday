@@ -848,6 +848,16 @@ int main() {
   return 0;
 }
 
+int myFunction(int x) {
+  return 5 + x;
+}
+
+int main() {
+  cout << myFunction(3);
+  return 0;
+}
+
+
     return 0;
 }
 
