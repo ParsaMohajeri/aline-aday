@@ -6,6 +6,7 @@ int main() {
     cout << "Hello World!" << endl;
     cout << "Hello World!";
     cout << "Have a good day!";
+    cout << 3;
     return 0;
 }
 
