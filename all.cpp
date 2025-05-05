@@ -7,13 +7,10 @@ int main() {
     cout << "Hello World!";
     cout << "Have a good day!";
     cout << 3;
+    cout << 3 + 3;
     return 0;
 }
 
-int main1() {
-    std::cout << "Hello World!";
-    return 0;
-}
 
 
 
