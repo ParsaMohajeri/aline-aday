@@ -8,6 +8,8 @@ int main() {
     cout << "Have a good day!";
     cout << 3;
     cout << 3 + 3;
+    cout << 2 * 5;
+
     return 0;
 }
 
