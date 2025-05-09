@@ -11,6 +11,9 @@ int main() {
     cout << 2 * 5;
     cout << "Hello World! \n";
     cout << "I am learning C++";
+    cout << "Hello World!" << "\n\n";
+    cout << "I am learning C++";
+
     return 0;
 }
 
