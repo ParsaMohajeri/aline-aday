@@ -13,7 +13,8 @@ int main() {
     cout << "I am learning C++";
     cout << "Hello World!" << "\n\n";
     cout << "I am learning C++";
-
+    int myNum = 15;
+    cout << myNum;
     return 0;
 }
 
