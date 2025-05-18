@@ -23,6 +23,10 @@ int main() {
     int x, y, z;
     x = y = z = 50;
     cout << x + y + z;
+    // Good
+    int minutesPerHour = 60;
+    // OK, but not so easy to understand what m actually is
+    int m = 60;
     return 0;
 }
 
