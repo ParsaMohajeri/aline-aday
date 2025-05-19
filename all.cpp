@@ -27,6 +27,7 @@ int main() {
     int minutesPerHour = 60;
     // OK, but not so easy to understand what m actually is
     int m = 60;
+    const int minutesPerHour = 60;
     return 0;
 }
 
